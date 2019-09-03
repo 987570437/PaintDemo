@@ -30,9 +30,9 @@ public class XfermodesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(new SampleView(this));//google Demo
-//        setContentView(new XfermodesView(this));//稍作修改
+        setContentView(new XfermodesView(this));//稍作修改
 //        setContentView(new XfermodeView(this));//自己练习
-        setContentView(new XfermodeEraserView(this));//刮刮卡
+//        setContentView(new XfermodeEraserView(this));//刮刮卡
     }
 
     private static class SampleView extends View {

@@ -241,7 +241,7 @@ public class XfermodesView extends View {
         Canvas c = new Canvas(bm);
         Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-        p.setColor(0xFFFFCC44);
+        p.setColor(0xFFFFCC44);//黄色
         c.drawOval(new RectF(0, 0, w, h), p);
         return bm;
     }
@@ -253,7 +253,7 @@ public class XfermodesView extends View {
         Canvas c = new Canvas(bm);
         Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-        p.setColor(0xFF66AAFF);
+        p.setColor(0xFF66AAFF);//蓝色
         c.drawRect(0, 0, w * 19 / 20, h * 19 / 20, p);
         return bm;
     }
