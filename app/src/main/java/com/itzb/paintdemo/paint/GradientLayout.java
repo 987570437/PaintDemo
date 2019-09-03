@@ -1,4 +1,4 @@
-package com.itzb.paintdemo;
+package com.itzb.paintdemo.paint;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -21,6 +21,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import com.itzb.paintdemo.R;
 
 public class GradientLayout extends View {
 
