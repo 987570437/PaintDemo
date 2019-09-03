@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.itzb.paintdemo.paint.PaintActivity;
+import com.itzb.paintdemo.xfermode.XfermodesActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, PaintActivity.class));
                 break;
             case R.id.btn_xfer_mode:
-//                startActivity(new Intent(MainActivity.this, PaintActivity.class));
+                startActivity(new Intent(MainActivity.this, XfermodesActivity.class));
                 break;
         }
     }
