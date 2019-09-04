@@ -26,6 +26,13 @@
 				android:text="Xfer Mode"
 				android:textAllCaps="false" />
 
+			<Button
+				android:id="@+id/btn_color_filter"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="滤镜效果"
+				android:textAllCaps="false" />
+
 
 		</LinearLayout>
 	</ScrollView>
