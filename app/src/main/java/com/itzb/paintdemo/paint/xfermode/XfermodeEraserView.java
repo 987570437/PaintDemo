@@ -1,4 +1,4 @@
-package com.itzb.paintdemo.xfermode;
+package com.itzb.paintdemo.paint.xfermode;
 
 import android.content.Context;
 import android.graphics.Bitmap;

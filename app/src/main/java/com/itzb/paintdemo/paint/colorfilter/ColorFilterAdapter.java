@@ -1,4 +1,4 @@
-package com.itzb.paintdemo.colorfilter;
+package com.itzb.paintdemo.paint.colorfilter;
 
 import android.view.LayoutInflater;
 import android.view.View;

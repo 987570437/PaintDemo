@@ -1,4 +1,4 @@
-package com.itzb.paintdemo.xfermode;
+package com.itzb.paintdemo.paint.xfermode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,8 +16,6 @@ import android.graphics.Shader;
 import android.graphics.Xfermode;
 import android.os.Bundle;
 import android.view.View;
-
-import com.itzb.paintdemo.R;
 
 
 /**

@@ -9,9 +9,9 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
-		<activity android:name=".colorfilter.ColorFilterActivity"></activity>
-		<activity android:name=".xfermode.XfermodesActivity" />
-		<activity android:name=".paint.PaintActivity" />
+		<activity android:name=".paint.colorfilter.ColorFilterActivity"></activity>
+		<activity android:name=".paint.xfermode.XfermodesActivity" />
+		<activity android:name=".paint.simple.PaintActivity" />
 		<activity android:name=".MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />

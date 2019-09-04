@@ -1,16 +1,11 @@
-package com.itzb.paintdemo.colorfilter;
+package com.itzb.paintdemo.paint.colorfilter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
-import android.graphics.LightingColorFilter;
 import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffColorFilter;
 import android.util.AttributeSet;
 import android.view.View;
 

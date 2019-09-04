@@ -1,4 +1,4 @@
-package com.itzb.paintdemo.paint;
+package com.itzb.paintdemo.paint.simple;
 
 import android.content.Context;
 import android.graphics.Bitmap;

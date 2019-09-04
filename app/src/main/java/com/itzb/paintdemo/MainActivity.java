@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.itzb.paintdemo.colorfilter.ColorFilterActivity;
-import com.itzb.paintdemo.paint.PaintActivity;
-import com.itzb.paintdemo.xfermode.XfermodesActivity;
+import com.itzb.paintdemo.paint.colorfilter.ColorFilterActivity;
+import com.itzb.paintdemo.paint.simple.PaintActivity;
+import com.itzb.paintdemo.paint.xfermode.XfermodesActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
