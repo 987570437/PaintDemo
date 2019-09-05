@@ -23,14 +23,35 @@
 				android:id="@+id/btn_xfer_mode"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:text="Xfer Mode"
+				android:text="图层混合模式（Xfer Mode)"
 				android:textAllCaps="false" />
 
 			<Button
 				android:id="@+id/btn_color_filter"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:text="滤镜效果"
+				android:text="滤镜效果(ColorFilter)"
+				android:textAllCaps="false" />
+
+			<Button
+				android:id="@+id/btn_canvas_transform"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="画布操作（Canvas Transform）"
+				android:textAllCaps="false" />
+
+			<Button
+				android:id="@+id/btn_canvas_split"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="粒子爆炸"
+				android:textAllCaps="false" />
+
+			<Button
+				android:id="@+id/btn_canvas_splash"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Splash动画"
 				android:textAllCaps="false" />
 
 

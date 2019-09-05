@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.itzb.paintdemo.canvas.transform.TransformActivity;
 import com.itzb.paintdemo.paint.colorfilter.ColorFilterActivity;
 import com.itzb.paintdemo.paint.simple.PaintActivity;
 import com.itzb.paintdemo.paint.xfermode.XfermodesActivity;
@@ -16,6 +17,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnPaint;
     private Button btnXferomde;
     private Button btnColorFilter;
+    private Button btnCanvasTransform;
+    private Button btnCanvasSplit;
+    private Button btnCanvasSplash;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +29,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPaint = findViewById(R.id.btn_paint);
         btnXferomde = findViewById(R.id.btn_xfer_mode);
         btnColorFilter = findViewById(R.id.btn_color_filter);
+        btnCanvasTransform = findViewById(R.id.btn_canvas_transform);
+        btnCanvasSplit = findViewById(R.id.btn_canvas_split);
+        btnCanvasSplash = findViewById(R.id.btn_canvas_splash);
         btnPaint.setOnClickListener(this);
         btnXferomde.setOnClickListener(this);
         btnColorFilter.setOnClickListener(this);
+        btnCanvasTransform.setOnClickListener(this);
+        btnCanvasSplit.setOnClickListener(this);
+        btnCanvasSplash.setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +51,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_color_filter:
                 startActivity(new Intent(MainActivity.this, ColorFilterActivity.class));
+                break;
+            case R.id.btn_canvas_transform:
+                startActivity(new Intent(MainActivity.this, TransformActivity.class));
+                break;
+            case R.id.btn_canvas_split:
+//                startActivity(new Intent(MainActivity.this, ColorFilterActivity.class));
+                break;
+            case R.id.btn_canvas_splash:
+//                startActivity(new Intent(MainActivity.this, ColorFilterActivity.class));
                 break;
         }
     }
