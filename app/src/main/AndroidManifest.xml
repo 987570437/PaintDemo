@@ -8,8 +8,9 @@
 		android:label="@string/app_name"
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
-		android:theme="@style/AppTheme">
-		<activity android:name=".canvas.split.SplitActivity"></activity>
+		android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+		<activity android:name=".canvas.splash.SplashActivity"/>
+		<activity android:name=".canvas.split.SplitActivity" />
 		<activity android:name=".canvas.transform.TransformActivity" />
 		<activity android:name=".paint.colorfilter.ColorFilterActivity" />
 		<activity android:name=".paint.xfermode.XfermodesActivity" />
