@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.itzb.paintdemo.canvas.split.SplitActivity;
 import com.itzb.paintdemo.canvas.transform.TransformActivity;
 import com.itzb.paintdemo.paint.colorfilter.ColorFilterActivity;
 import com.itzb.paintdemo.paint.simple.PaintActivity;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, TransformActivity.class));
                 break;
             case R.id.btn_canvas_split:
-//                startActivity(new Intent(MainActivity.this, ColorFilterActivity.class));
+                startActivity(new Intent(MainActivity.this, SplitActivity.class));
                 break;
             case R.id.btn_canvas_splash:
 //                startActivity(new Intent(MainActivity.this, ColorFilterActivity.class));
