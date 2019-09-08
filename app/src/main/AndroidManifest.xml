@@ -9,7 +9,8 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-		<activity android:name=".canvas.splash.SplashActivity"/>
+		<activity android:name=".path.simple.PathActivity"></activity>
+		<activity android:name=".canvas.splash.SplashActivity" />
 		<activity android:name=".canvas.split.SplitActivity" />
 		<activity android:name=".canvas.transform.TransformActivity" />
 		<activity android:name=".paint.colorfilter.ColorFilterActivity" />

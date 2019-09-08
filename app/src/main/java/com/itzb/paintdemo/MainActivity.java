@@ -13,6 +13,7 @@ import com.itzb.paintdemo.canvas.transform.TransformActivity;
 import com.itzb.paintdemo.paint.colorfilter.ColorFilterActivity;
 import com.itzb.paintdemo.paint.simple.PaintActivity;
 import com.itzb.paintdemo.paint.xfermode.XfermodesActivity;
+import com.itzb.paintdemo.path.simple.PathActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnCanvasTransform;
     private Button btnCanvasSplit;
     private Button btnCanvasSplash;
+    private Button btnPath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +36,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCanvasTransform = findViewById(R.id.btn_canvas_transform);
         btnCanvasSplit = findViewById(R.id.btn_canvas_split);
         btnCanvasSplash = findViewById(R.id.btn_canvas_splash);
+        btnPath = findViewById(R.id.btn_path);
         btnPaint.setOnClickListener(this);
         btnXferomde.setOnClickListener(this);
         btnColorFilter.setOnClickListener(this);
         btnCanvasTransform.setOnClickListener(this);
         btnCanvasSplit.setOnClickListener(this);
         btnCanvasSplash.setOnClickListener(this);
+        btnPath.setOnClickListener(this);
     }
 
     @Override
@@ -62,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_canvas_splash:
                 startActivity(new Intent(MainActivity.this, SplashActivity.class));
+                break;
+            case R.id.btn_path:
+                startActivity(new Intent(MainActivity.this, PathActivity.class));
                 break;
         }
     }

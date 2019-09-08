@@ -54,6 +54,12 @@
 				android:text="Splash动画"
 				android:textAllCaps="false" />
 
+			<Button
+				android:id="@+id/btn_path"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Path"
+				android:textAllCaps="false" />
 
 		</LinearLayout>
 	</ScrollView>
