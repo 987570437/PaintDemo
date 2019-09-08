@@ -13,6 +13,7 @@ import com.itzb.paintdemo.canvas.transform.TransformActivity;
 import com.itzb.paintdemo.paint.colorfilter.ColorFilterActivity;
 import com.itzb.paintdemo.paint.simple.PaintActivity;
 import com.itzb.paintdemo.paint.xfermode.XfermodesActivity;
+import com.itzb.paintdemo.path.dragBubble.DragBubbleActivity;
 import com.itzb.paintdemo.path.simple.PathActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnCanvasSplit;
     private Button btnCanvasSplash;
     private Button btnPath;
+    private Button btnPathDragBubble;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCanvasSplit = findViewById(R.id.btn_canvas_split);
         btnCanvasSplash = findViewById(R.id.btn_canvas_splash);
         btnPath = findViewById(R.id.btn_path);
+        btnPathDragBubble = findViewById(R.id.btn_path_drag_bubble);
+
         btnPaint.setOnClickListener(this);
         btnXferomde.setOnClickListener(this);
         btnColorFilter.setOnClickListener(this);
@@ -44,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCanvasSplit.setOnClickListener(this);
         btnCanvasSplash.setOnClickListener(this);
         btnPath.setOnClickListener(this);
+        btnPathDragBubble.setOnClickListener(this);
     }
 
     @Override
@@ -69,6 +74,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_path:
                 startActivity(new Intent(MainActivity.this, PathActivity.class));
+                break;
+            case R.id.btn_path_drag_bubble:
+                startActivity(new Intent(MainActivity.this, DragBubbleActivity.class));
                 break;
         }
     }

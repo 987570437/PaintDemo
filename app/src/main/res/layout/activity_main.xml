@@ -61,6 +61,13 @@
 				android:text="Path"
 				android:textAllCaps="false" />
 
+			<Button
+				android:id="@+id/btn_path_drag_bubble"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="拖拽气泡"
+				android:textAllCaps="false" />
+
 		</LinearLayout>
 	</ScrollView>
 </LinearLayout>
