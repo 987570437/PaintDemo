@@ -68,6 +68,13 @@
 				android:text="拖拽气泡"
 				android:textAllCaps="false" />
 
+			<Button
+				android:id="@+id/btn_path_measure"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Path Measure"
+				android:textAllCaps="false" />
+
 		</LinearLayout>
 	</ScrollView>
 </LinearLayout>

@@ -9,7 +9,8 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-		<activity android:name=".path.dragBubble.DragBubbleActivity"></activity>
+		<activity android:name=".path.pathMeasure.PathMeasureActivity"></activity>
+		<activity android:name=".path.dragBubble.DragBubbleActivity" />
 		<activity android:name=".path.simple.PathActivity" />
 		<activity android:name=".canvas.splash.SplashActivity" />
 		<activity android:name=".canvas.split.SplitActivity" />
